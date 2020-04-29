@@ -21,4 +21,13 @@ public class EjerciciosTests {
 		assertFalse(Ejercicio2.estaOrdenado(new int[] { 1, 2, 0 }));
 		assertTrue(Ejercicio2.estaOrdenado(new int[] { 3, 6, 9 }));
 	}
+
+	@Test
+	void testCuantosDiferentes() {
+		assertEquals(3, Ejercicio3.cuantosDiferentes(new int[] {1, 2, 3}));
+		assertEquals(2, Ejercicio3.cuantosDiferentes(new int[] {1, 2, 1}));
+		assertEquals(1, Ejercicio3.cuantosDiferentes(new int[] {2, 2, 2}));
+		assertEquals(2, Ejercicio3.cuantosDiferentes(new int[] {1, 3, 1, 3}));
+		assertEquals(3, Ejercicio3.cuantosDiferentes(new int[] {1, 3, 1, 3, 5}));
+	}
 }
