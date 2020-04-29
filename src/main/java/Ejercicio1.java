@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Ejercicio1 {
-	static int[] leerEnteros(Scanner scanner) {
+	public static int[] leerEnteros(Scanner scanner) {
 		System.out.print("Ingrese la cantidad de enteros: ");
 
 		int cantidad = scanner.nextInt();
